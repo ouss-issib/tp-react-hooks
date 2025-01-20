@@ -62,8 +62,8 @@ C'est la première fois que j'ai travaillé avec le concept de debounce, et c'es
       - Après avoir cherché sur Google, j'ai découvert que le debounce permet de gérer le délai entre chaque caractère tapé par l'utilisateur. Il attend un certain délai avant de lancer l'appel au serveur, ce qui évite d'envoyer des requêtes à             chaque frappe de clavier.
    4. Solution finale :
       - J'ai intégré le debounce pour que l'appel au serveur ne se fasse qu'après un certain délai d'inactivité. Cela permet d'optimiser les requêtes et de ne pas les multiplier inutilement.
-
-   ## Captures d'écran :
+```
+ ## Captures d'écran :
       | Avant la Recherche | Entrain de recherche | Après la recherche 1 | 
       |---|---|---|
       | ![1](./captures/Exercice1/before-search.png) | ![2](./captures/Exercice1/pending-search.png) | ![3](./captures/Exercice1/resolve-search.png) |
@@ -71,8 +71,6 @@ C'est la première fois que j'ai travaillé avec le concept de debounce, et c'es
        | useDebounce Hook | Resultat d'exercice 1 |
       |---|---|
       | ![4](./captures/Exercice1/use-debounce-hook.png) | ![5](./captures/Exercice1/result-exercice1.png) | 
-```
-
 ### Exercice 2 : Context et Internationalisation
 #### Objectif : Gérer les préférences de langue
 
