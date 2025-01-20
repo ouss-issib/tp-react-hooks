@@ -64,13 +64,15 @@ C'est la première fois que j'ai travaillé avec le concept de debounce, et c'es
       - J'ai intégré le debounce pour que l'appel au serveur ne se fasse qu'après un certain délai d'inactivité. Cela permet d'optimiser les requêtes et de ne pas les multiplier inutilement.
 ```
  ## Captures d'écran :
-      | Avant la Recherche | Entrain de recherche | Après la recherche 1 | 
-      |---|---|---|
-      | ![1](./captures/Exercice1/before-search.png) | ![2](./captures/Exercice1/pending-search.png) | ![3](./captures/Exercice1/resolve-search.png) |
+   | Avant la Recherche | Entrain de recherche | Après la recherche 1 | 
+   |---|---|---|
+   | ![1](./captures/Exercice1/before-search.png) | ![2](./captures/Exercice1/pending-search.png) | ![3](./captures/Exercice1/resolve-search.png) |
 
-       | useDebounce Hook | Resultat d'exercice 1 |
-      |---|---|
-      | ![4](./captures/Exercice1/use-debounce-hook.png) | ![5](./captures/Exercice1/result-exercice1.png) | 
+   | useDebounce Hook | Resultat d'exercice 1 |
+   |---|---|
+   | ![4](./captures/Exercice1/use-debounce-hook.png) | ![5](./captures/Exercice1/result-exercice1.png) | 
+   
+   <hr>
 ### Exercice 2 : Context et Internationalisation
 #### Objectif : Gérer les préférences de langue
 
