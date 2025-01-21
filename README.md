@@ -57,9 +57,9 @@ C'est la première fois que j'ai travaillé avec le concept de debounce, et c'es
    1. Premières difficultés rencontrées :
       - Au début, je n'avais pas de liaison entre les composants ProductSearch et ProductList. J'ai donc réfléchi à une solution et décidé d'ajouter un état dans le composant App pour établir cette liaison.
    2. Résolution de la première question (recherche simple) :
-      - J'ai commencé par faire en sorte que la recherche fonctionne à chaque frappe sur le clavier. Je voyais que l'appel au serveur était effectué automatiquement à chaque caractère tapé, mais c'était un peu étrange, car cela envoyait trop de            requêtes.
+      - J'ai commencé par faire en sorte que la recherche fonctionne à chaque frappe sur le clavier. Je voyais que l'appel au serveur était effectué automatiquement à chaque caractère tapé, mais c'était un peu étrange, car cela envoyait trop de requêtes.
    3. Recherche sur le debounce :
-      - Après avoir cherché sur Google, j'ai découvert que le debounce permet de gérer le délai entre chaque caractère tapé par l'utilisateur. Il attend un certain délai avant de lancer l'appel au serveur, ce qui évite d'envoyer des requêtes à             chaque frappe de clavier.
+      - Après avoir cherché sur Google, j'ai découvert que le debounce permet de gérer le délai entre chaque caractère tapé par l'utilisateur. Il attend un certain délai avant de lancer l'appel au serveur, ce qui évite d'envoyer des requêtes à chaque frappe de clavier.
    4. Solution finale :
       - J'ai intégré le debounce pour que l'appel au serveur ne se fasse qu'après un certain délai d'inactivité. Cela permet d'optimiser les requêtes et de ne pas les multiplier inutilement.
 ```
@@ -82,9 +82,25 @@ C'est la première fois que j'ai travaillé avec le concept de debounce, et c'es
 
 _Votre réponse pour l'exercice 2 :_
 ```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
+ Voici comment j'ai abordé la tâche :
+   1. Premières difficultés rencontrées :
+      - Au début, je n'ai aucune idée de comment je peux traduire la liste des produits .
+   2. Résolution d'exercice
+      - J'ai d'abord créé un LanguageContext en utilisant la méthode createContext, puis j'ai ajouté un état pour gérer la langue, et enfin j'ai enveloppé l'application avec LanguageContext.Provider.
+      - Ensuite, j'ai ajouté un composant LangueSelecteur pour gérer l'état de la langue et commencé à traduire chaque mot en fonction de la langue sélectionnée.
+   3. Recherche sur L :
+      - J'ai déja utilisé Internalisation I18n en vue Framework.
+   4. Solution finale :
+      - J'ai répondu à tout l'exercice, sauf la liste des produits, car je n'avais aucune idée à ce sujet.
 ```
+
+ ## Captures d'écran :
+   | Français | English | العربية | 
+   |---|---|---|
+   | ![1](./captures/Exercice2/fr.png) | ![2](./captures/Exercice2/en.png) | ![3](./captures/Exercice2/ar.png) |
+
+
+
 
 ### Exercice 3 : Hooks Personnalisés
 #### Objectif : Créer des hooks réutilisables
