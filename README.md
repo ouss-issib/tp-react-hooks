@@ -135,7 +135,7 @@ Voici comment j'ai abordé la tâche :
 _Votre réponse pour l'exercice 4 :_
 ```
   1. Résolution d'exercice
-      - JJ'ai ajouté le bouton de rechargement pour permettre l'actualisation manuelle des produits.
+      - J'ai ajouté le bouton de rechargement pour permettre l'actualisation manuelle des produits.
       - J'ai intégré les états currentPage et totalPages pour gérer la pagination.
       - J'ai modifié la fonction fetchProducts en ajoutant un paramètre limit et en calculant totalPages en fonction de ce paramètre. J'ai également introduit une variable skip pour déterminer la page actuelle.
       - J'ai récupéré la fonction de rechargement et les états et fonctions de pagination pour les utiliser dans le composant.
