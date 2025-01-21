@@ -88,7 +88,7 @@ _Votre réponse pour l'exercice 2 :_
    2. Résolution d'exercice
       - J'ai d'abord créé un LanguageContext en utilisant la méthode createContext, puis j'ai ajouté un état pour gérer la langue, et enfin j'ai enveloppé l'application avec LanguageContext.Provider.
       - Ensuite, j'ai ajouté un composant LangueSelecteur pour gérer l'état de la langue et commencé à traduire chaque mot en fonction de la langue sélectionnée.
-   3. Recherche sur L :
+   3. Recherche sur L'internalisation :
       - J'ai déja utilisé Internalisation I18n en vue Framework.
    4. Solution finale :
       - J'ai répondu à tout l'exercice, sauf la liste des produits, car je n'avais aucune idée à ce sujet.
@@ -111,9 +111,19 @@ _Votre réponse pour l'exercice 2 :_
 
 _Votre réponse pour l'exercice 3 :_
 ```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
+Voici comment j'ai abordé la tâche :
+   1. Résolution d'exercice
+      - J'ai déja utilisé useDebounce dans l'exercice 1
+      - j'ai créé un hook personnalisé useLocalStorage qui permet de stocker et de récupérer des données depuis le localStorage du navigateur. Ce hook simplifie la gestion des données persistantes en utilisant les fonctionnalités natives de localStorage, tout en intégrant un état React pour mettre à          jour l'interface utilisateur en temps réel lorsque les données changent.
+   3. Aucune Recherche
+   4. Solution finale :
+      - J'ai répondu à tout l'exercice .
 ```
+
+ ## Captures d'écran :
+   | useDebounce Hook | useLocalStorage HOOK |
+   |---|---|---|
+   | ![1](./captures/Exercice3/useDebounce.png) | ![2](./captures/Exercice3/useLocalStorage.png) |
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
 #### Objectif : Gérer le chargement et la pagination
