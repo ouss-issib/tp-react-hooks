@@ -134,10 +134,28 @@ Voici comment j'ai abordé la tâche :
 
 _Votre réponse pour l'exercice 4 :_
 ```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
+  1. Résolution d'exercice
+      - JJ'ai ajouté le bouton de rechargement pour permettre l'actualisation manuelle des produits.
+      - J'ai intégré les états currentPage et totalPages pour gérer la pagination.
+      - J'ai modifié la fonction fetchProducts en ajoutant un paramètre limit et en calculant totalPages en fonction de ce paramètre. J'ai également introduit une variable skip pour déterminer la page actuelle.
+      - J'ai récupéré la fonction de rechargement et les états et fonctions de pagination pour les utiliser dans le composant.
+   3. Aucune Recherche
+   4. Solution finale :
+      - J'ai répondu à tout l'exercice .
 ```
 
+## Captures d'écran :
+   | Première Page | Deuxième Page | Troisième page |
+   |---|---|---|
+   | ![1](./captures/Exercice4/premierPage.png) | ![2](./captures/Exercice4/deuxiemePage.png) | ![3](./captures/Exercice4/premierPage.png) |
+
+   | Avant de cliquer sur le bouton Recharger | Après avoir cliqué sur le bouton Recharger |
+   |---|---|
+   | ![1](./captures/Exercice4/btn-reload.png) | ![2](./captures/Exercice4/reload.png) |
+   
+   | Implémentation Code  | Implémentation Code pour Bouton reload | Récupération  |
+   |---|---|---|
+   | ![1](./captures/Exercice4/implementationCode.png) | ![2](./captures/Exercice4/btnReload.png) | ![3](./captures/Exercice4/recuperation.png) |
 ## Rendu
 
 - Ajoutez l'URL de votre dépôt Github dans  **Classroom** et envoyer la réponse dès le démarage de votre projet.
