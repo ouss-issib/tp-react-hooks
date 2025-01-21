@@ -35,6 +35,13 @@ const ProductList = ({ searchTerm }) => {
   return (
     <div>
       {/* TODO: Exercice 4.1 - Ajouter le bouton de rechargement */}
+      <div className="text-center my-3">
+        <button className="btn btn-primary" onClick={reload}>
+          {langue === "fr" ? "Recharger" : langue === "ar" ? "إعادة تحميل" : "Reload"}
+        </button>
+      </div>
+
+
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 " dir={langue === 'ar' ? 'rtl' : 'ltr'}>
         {products.map(product => (
           <div key={product.id} className="col">

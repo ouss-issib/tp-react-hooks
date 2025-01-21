@@ -29,7 +29,7 @@ export const useLocaleStorage = (key, initialValue) => {
 };
 
 
-const useProductSearch = (searchTerm, limit = 5) => {
+const useProductSearch = (searchTerm, limit = 10) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
