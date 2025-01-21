@@ -50,7 +50,7 @@ const ProductList = ({ searchTerm }) => {
                 <p className="card-text">{product.description}</p>
                 <p className="card-text" dir={langue === 'ar' ? 'rtl' : 'ltr'}>
                   <strong>
-                    {langue == "fr" ? "Prix" : langue == "ar" ? "السعر" : "Price"}
+                    {langue == "fr" ? "Prix :" : langue == "ar" ? "السعر : " : "Price : "}
                   </strong>
                   {product.price}€
                 </p>
