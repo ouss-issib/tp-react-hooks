@@ -155,7 +155,7 @@ _Votre réponse pour l'exercice 4 :_
    
    | Implémentation Code  | Implémentation Code pour Bouton reload | Récupération  |
    |---|---|---|
-   | ![1](./captures/Exercice4/implementationCode.png) | ![2](./captures/Exercice4/btnReload.png) | ![3](./captures/Exercice4/recuperation.png) |
+   | ![1](./captures/Exercice4/implemenatationCode.png) | ![2](./captures/Exercice4/btnReload.png) | ![3](./captures/Exercice4/recuperation.png) |
 ## Rendu
 
 - Ajoutez l'URL de votre dépôt Github dans  **Classroom** et envoyer la réponse dès le démarage de votre projet.
