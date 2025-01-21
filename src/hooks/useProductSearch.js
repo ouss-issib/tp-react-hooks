@@ -1,8 +1,33 @@
 import { useState, useEffect } from 'react';
 
 // TODO: Exercice 3.1 - Créer le hook useDebounce
+export const useDebounce = (value, delay) => {
+  const [debouncedValue, setDebouncedValue] = useState(value);
+  useEffect(() => {
+    const handler = setTimeout(() => {
+      setDebouncedValue(value);
+    }, delay);
+    return () => {
+      clearTimeout(handler);
+    }
+  }, [value, delay]);
+  return debouncedValue;
+}
 
 // TODO: Exercice 3.2 - Créer le hook useLocalStorage
+export const useLocaleStorage = (key, initialValue) => {
+  const [value, setValue] = useState(() => {
+    const storedValue = localStorage.getItem(key);
+    return storedValue ? JSON.parse(storedValue) : initialValue;
+  });
+
+  useEffect(() => {
+    localStorage.setItem(key, JSON.stringify(value));
+  }, [key, value]);
+
+  return [value, setValue];
+};
+
 
 const useProductSearch = (searchTerm) => {
   const [products, setProducts] = useState([]);

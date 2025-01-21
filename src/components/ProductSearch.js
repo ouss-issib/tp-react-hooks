@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { LanguageContext, ThemeContext } from '../App';
-import useDebounce from '../hooks/useDebounce';
+import { useDebounce } from '../hooks/useProductSearch';
 
 const ProductSearch = ({ setSearchTerm }) => {
   const { isDarkTheme } = useContext(ThemeContext);
