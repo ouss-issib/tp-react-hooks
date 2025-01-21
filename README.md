@@ -145,7 +145,7 @@ _Votre réponse pour l'exercice 4 :_
 ```
 
 ## Captures d'écran :
-   | Première Page | Deuxième Page | Troisième page |
+   | Première Page | Deuxième Page |
    |---|---|
    | ![1](./captures/Exercice4/premierPage.png) | ![2](./captures/Exercice4/deuxiemePage.png) |
 
