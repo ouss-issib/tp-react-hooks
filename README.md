@@ -122,7 +122,7 @@ Voici comment j'ai abordé la tâche :
 
  ## Captures d'écran :
    | useDebounce Hook | useLocalStorage HOOK |
-   |---|---|---|
+   |---|---|
    | ![1](./captures/Exercice3/useDebounce.png) | ![2](./captures/Exercice3/useLocalStorage.png) |
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
