@@ -146,8 +146,8 @@ _Votre réponse pour l'exercice 4 :_
 
 ## Captures d'écran :
    | Première Page | Deuxième Page | Troisième page |
-   |---|---|---|
-   | ![1](./captures/Exercice4/premierPage.png) | ![2](./captures/Exercice4/deuxiemePage.png) | ![3](./captures/Exercice4/premierPage.png) |
+   |---|---|
+   | ![1](./captures/Exercice4/premierPage.png) | ![2](./captures/Exercice4/deuxiemePage.png) |
 
    | Avant de cliquer sur le bouton Recharger | Après avoir cliqué sur le bouton Recharger |
    |---|---|
